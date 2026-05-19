@@ -50,3 +50,4 @@ impl TimerFuture {
         TimerFuture { shared_state }
     }
 }
+
