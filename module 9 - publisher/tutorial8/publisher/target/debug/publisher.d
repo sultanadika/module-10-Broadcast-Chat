@@ -1,1 +1,0 @@
-/mnt/c/Users/OMEN/OneDrive/Documents/sultan\ ui\ 2024/module\ 9\ -\ publisher/tutorial8/publisher/target/debug/publisher: /mnt/c/Users/OMEN/OneDrive/Documents/sultan\ ui\ 2024/module\ 9\ -\ publisher/tutorial8/publisher/src/main.rs
