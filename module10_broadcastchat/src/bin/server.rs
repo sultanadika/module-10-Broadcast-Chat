@@ -49,7 +49,7 @@ async fn main() -> Result<(), Box<dyn Error + Send + Sync>> {
 
     loop {
         let (socket, addr) = listener.accept().await?;
-        println!("New connection from {addr:?}");
+        println!("New connection from Sultan's Computer{addr}");
         let bcast_tx = bcast_tx.clone();
         tokio::spawn(async move {
             let (_req, ws_stream) = ServerBuilder::new().accept(socket).await.unwrap();

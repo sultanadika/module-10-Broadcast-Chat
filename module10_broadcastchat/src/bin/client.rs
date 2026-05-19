@@ -20,7 +20,7 @@ async fn main() -> Result<(), Box<dyn Error + Send + Sync>> {
                 match incoming {
                     Some(Ok(msg)) => {
                         if let Some(text) = msg.as_text() {
-                            println!("From server: {text}");
+                            println!("Sultan's Computer - From server: {text}");
                         }
                     }
                     _ => break,
