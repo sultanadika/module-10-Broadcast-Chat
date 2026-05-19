@@ -10,3 +10,8 @@ Explanation: When spawner.spawn() is evaluated, the runtime dynamically wraps th
 
 This behavioral sequence perfectly illustrates the lazy execution model of asynchronous Rust
 
+## 1.3 Multiple Spawn and removing drop
+
+![img_2.png](img_2.png)
+
+Explanation: Spawning multiple tasks allows the executor to interleave them, processing the queue concurrently. Consequently, all three "howdy" lines print back-to-back before the first timer finishes. Once the $2$-second delay elapses, the background threads wake the tasks, causing the three "done" lines to print in close succession. Commenting out drop(spawner) causes the program to hang indefinitely because the internal channel queue remains open. Dropping the spawner explicitly closes this channel, signaling the executor to shut down safely once the remaining tasks are empty.
