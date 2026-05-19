@@ -1,1 +1,0 @@
-C:\Users\OMEN\OneDrive\Documents\sultan\ ui\ 2024\module\ 10\timer\target\debug\timer_future.exe: C:\Users\OMEN\OneDrive\Documents\sultan\ ui\ 2024\module\ 10\timer\src\main.rs C:\Users\OMEN\OneDrive\Documents\sultan\ ui\ 2024\module\ 10\timer\src\timer.rs
